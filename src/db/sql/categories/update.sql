@@ -1,0 +1,1 @@
+update categories set name=${name} where id=${id} returning name;

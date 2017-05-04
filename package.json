@@ -1,0 +1,23 @@
+{
+  "name": "shifting-app",
+  "version": "1.0.0",
+  "description": "an app for digital house-hunting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/db/repos/categories.js"
+  },
+  "author": "Talmon Mwazo",
+  "license": "ISC",
+  "engines": {
+    "node": ">6.0",
+    "npm": ">=1.4"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.1",
+    "express": "^4.15.2",
+    "nodemon": "^1.11.0",
+    "pg-promise": "^5.6.7"
+  }
+}
